@@ -1,0 +1,72 @@
+body{
+    margin: 0px;
+    background: #333;
+}
+.title{
+    width: 60%;
+    height: 50px;
+    background: #fc8;
+    padding: 10px;
+    margin: 10px auto;
+    font: 44px "arial";
+    text-align: center;
+    color: #444;
+}
+.img{
+    width: 500px;
+    height: 300px;
+    float: left;
+    margin: 15px ;
+    border: 3px solid #ccc;
+    background-size: cover;
+    background-image: url(image0.jpg);
+
+
+}
+.p1{
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+   filter: grayscale(100%) ;
+}
+.p2{
+
+    -webkit-filter: sepia(60%);
+    -moz-filter: sepia(60%);
+    filter: sepia(60%);
+}
+.p3{
+
+    -webkit-filter: hue-rotate(200deg);
+    -moz-filter: hue-rotate(200deg);
+    filter: hue-rotate(200deg);
+}
+.p4{
+
+    -webkit-filter: contrast(200%);
+    -moz-filter: contrast(200%);
+    filter: contrast(200%);
+}
+.p5{
+
+    -webkit-filter: saturate(100%);
+      -moz-filter: saturate(100%);
+      filter: saturate(255%);
+}
+.p6{
+
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+     filter: blur(5px);
+}
+.p7{
+
+    -webkit-filter: invert(70%);
+    -moz-filter: invert(70%);
+    filter: invert(70%);
+}
+.p8{
+
+    -webkit-filter: brightness(30%);
+    -moz-filter: brightness(30%);
+     filter: brightness(30%);
+}
