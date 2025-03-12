@@ -21,9 +21,9 @@ main{
 
 }
 .p1{
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-   filter: grayscale(100%) ;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    filter: grayscale(100%) ;
 }
 .p2{
 
@@ -46,14 +46,14 @@ main{
 .p5{
 
     -webkit-filter: saturate(100%);
-      -moz-filter: saturate(100%);
-      filter: saturate(255%);
+    -moz-filter: saturate(100%);
+    filter: saturate(255%);
 }
 .p6{
 
     -webkit-filter: blur(5px);
     -moz-filter: blur(5px);
-     filter: blur(5px);
+    filter: blur(5px);
 }
 .p7{
 
@@ -65,5 +65,5 @@ main{
 
     -webkit-filter: brightness(30%);
     -moz-filter: brightness(30%);
-     filter: brightness(30%);
+    filter: brightness(30%);
 }
