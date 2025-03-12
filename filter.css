@@ -1,26 +1,23 @@
 body{
     margin: 0px;
-    background: #333;
+    background: #291832;
 }
-.title{
-    width: 60%;
-    height: 50px;
-    background: #fc8;
-    padding: 10px;
-    margin: 10px auto;
-    font: 44px "arial";
-    text-align: center;
-    color: #444;
+main{
+    width: 900px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: calc(50vh - 250px);
 }
 .img{
-    width: 500px;
-    height: 300px;
-    float: left;
-    margin: 15px ;
-    border: 3px solid #ccc;
+    width: 250px;
+    height: 130px;
+    border-radius: 15px;
     background-size: cover;
-    background-image: url(image0.jpg);
-
+    background-image: url(image.jpg);
 
 }
 .p1{
